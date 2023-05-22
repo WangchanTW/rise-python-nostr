@@ -2,7 +2,7 @@
 Learning how to build a distributed system via nostr protocol in RISE program
 
 # Command
-    source nostr/bin/activat
+    source nostr/bin/activate
     python client-sender.py --host relay.nekolicio.us --message "HelloWorld"
 
 
