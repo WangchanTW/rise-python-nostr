@@ -15,8 +15,14 @@ Learning how to build a distributed system via nostr protocol in RISE program
 - When we use event aggregator to deal with multiple relay requests in the same time, it may cause latency and consistency issue in the progress
 
 # Phase 2 Q&A
+### Deployment
+Take ws://localhost:8080 as relay URL in the client
+    python3 -m app.local_server
+Sent a event
+    python3 -m app.demo
+
 > Why did you choose this database?
-- 
+- sqlite
 > If the number of events to be stored will be huge, what would you do to scale the database?
 - 
 # Material Ref
